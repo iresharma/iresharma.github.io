@@ -93,3 +93,17 @@
     left: -10%;
   }
 }
+
+.moblie {
+  display: none;
+}
+
+@media (max-width:990px) {
+  .moblie {
+    display: block;
+  }
+
+  .desk {
+    display: none;
+  }
+}

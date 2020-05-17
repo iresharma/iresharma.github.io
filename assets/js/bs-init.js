@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip(); 
 	AOS.init({ disable: 'mobile' });
 	$('[data-bs-hover-animate]')
 		.mouseenter( function(){ var elem = $(this); elem.addClass('animated ' + elem.attr('data-bs-hover-animate')) })

@@ -107,3 +107,28 @@
     display: none;
   }
 }
+
+
+#about {
+  background-image: url(/assets/img/bookshelf.svg);
+  background-size: 30%;
+  background-position: right; 
+  background-repeat: no-repeat;
+}
+
+#skills {
+  background-image: url(/assets/img/pen-tool.svg);
+  background-position: top right;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #about {
+    background: transparent;
+  }
+
+  #skills {
+    background: transparent;
+  }
+}

@@ -29,7 +29,7 @@
 }
 
 #button-c:hover {
-  background-color: rgb(255,255,255);
+  background-color: transparent;
   color: #323232;
   text-decoration: none;
 }

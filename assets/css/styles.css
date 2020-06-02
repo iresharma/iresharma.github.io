@@ -20,14 +20,30 @@
   justify-items: center;
 }
 
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space;
+  align-items: center;
+  justify-items: center;
+}
+
 @media (max-width:850px) {
   .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2 {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width:500px) {
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
     grid-template-columns: 1fr;
   }
 }
@@ -131,4 +147,11 @@
   #skills {
     background: transparent;
   }
+}
+
+.people {
+  background-image: url("../img/speech-modal-1.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 40%;
 }

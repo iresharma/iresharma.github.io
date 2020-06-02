@@ -130,14 +130,14 @@ body::-webkit-scrollbar {
 
 
 #about {
-  background-image: url(/assets/img/bookshelf.svg);
+  background-image: url("../img/bookshelf.svg");
   background-size: 30%;
   background-position: right; 
   background-repeat: no-repeat;
 }
 
 #skills {
-  background-image: url(/assets/img/pen-tool.svg);
+  background-image: url("../img/pen-tool.svg");
   background-position: top right;
   background-size: 30%;
   background-repeat: no-repeat;

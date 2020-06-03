@@ -12,6 +12,10 @@
   }
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -20,14 +24,30 @@
   justify-items: center;
 }
 
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space;
+  align-items: center;
+  justify-items: center;
+}
+
 @media (max-width:850px) {
   .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2 {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width:500px) {
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
     grid-template-columns: 1fr;
   }
 }
@@ -92,4 +112,50 @@
     top: -10%;
     left: -10%;
   }
+}
+
+.moblie {
+  display: none;
+}
+
+@media (max-width:990px) {
+  .moblie {
+    display: block;
+  }
+
+  .desk {
+    display: none;
+  }
+}
+
+
+#about {
+  background-image: url("../img/bookshelf.svg");
+  background-size: 30%;
+  background-position: right; 
+  background-repeat: no-repeat;
+}
+
+#skills {
+  background-image: url("../img/pen-tool.svg");
+  background-position: top right;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #about {
+    background: transparent;
+  }
+
+  #skills {
+    background: transparent;
+  }
+}
+
+.people {
+  background-image: url("../img/speech-modal-1.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 40%;
 }

@@ -1,6 +1,7 @@
 .testimonials-clean {
   color: #313437;
   background-color: #eef4f7;
+  height: fit-content;
 }
 
 .testimonials-clean p {
@@ -33,7 +34,7 @@
 }
 
 .testimonials-clean .people {
-  padding: 50px 0 20px;
+  padding: 50px 0 10px;
 }
 
 .testimonials-clean .item {
